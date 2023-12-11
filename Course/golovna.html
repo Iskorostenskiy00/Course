@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Тренажерний Зал - FitFortune Hub</title>
+    <!-- Підключення Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="golovna.css">
+</head>
+<body> 
+    <header class="container">
+        <img src="logo.png" alt="FitFortune Hub" class="logo">
+        <h1>Ласкаво просимо в FitFortune Hub!</h1>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="golovna.html">Головна</a></li>
+                <li class="nav-item"><a class="nav-link" href="schedule.html">Бронювання</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Контакти</a></li>
+                    <!-- Додавання кнопки "Вихід" з SVG-іконкою -->
+                    <button class="btn btn-link" onclick="location.href='account.html'">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0z"/>
+                            <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+                        </svg>
+                        Вихід
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header> 
+    <section class="text-container">
+        <h2>Welcome to the FitFortune Hub!</h2>
+        <p>FitFortune Hub - це ваш ідеальний партнер у світі фітнесу та здоров'я. Ми пропонуємо:</p>
+        <ul>
+            <li>1.Понад 50 тренажерних залів</li>
+            <li>2.Підтримку персоналу</li>
+            <li>3.Неймовірний простір для досягнення фітнес-мрій</li>
+        </ul>
+        <button class="btn btn-primary" onclick="location.href='schedule.html'">Приєднатися зараз</button>
+    </section>
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>

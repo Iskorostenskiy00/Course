@@ -1,0 +1,111 @@
+/* Стилі загального вигляду */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('back.jpg');
+}
+
+header {
+    background-color: #f2dfff81;
+    text-align: center;
+    padding: 25px;
+}
+
+.logo {
+    max-width: 10%;
+    height: auto;
+    display: block;
+    margin:-24px auto;
+    border-radius: 5px;
+    padding: 0px;
+  }
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+   
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.text-container {
+    text-align: center;
+    margin: 50px;
+    color: #ffffff; /* Чорний колір тексту */
+    font-size: 1.2em; /* Збільште розмір шрифту (можна вибрати інший розмір) */
+    font-weight: bold; /* Зробіть текст жирним */
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+}
+
+.text-container h2 {
+    color: #ffffff; /* Чорний колір заголовка */
+    font-size: 1.5em; /* Збільште розмір шрифту (можна вибрати інший розмір) */
+}
+
+.text-container p {
+    font-size: 1.1em; /* Збільште розмір шрифту для параграфів (можна вибрати інший розмір) */
+}
+
+.text-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.text-container li {
+    margin-bottom: 10px;
+    font-size: 1em; /* Збільште розмір шрифту для списку (можна вибрати інший розмір) */
+}
+
+.btn-primary {
+    background-color: rgb(182, 29, 29);
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: rgb(182, 42, 42);
+}
+
+footer {
+    margin-top: 50px;
+}
+
+/* Адаптивні стилі для менших екранів */
+
+@media screen and (max-width: 600px) {
+    header, .text-container {
+        padding: 15px;
+    }
+
+    .logo {
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+.container {
+    max-width: 1980px;
+    color: #ffffff;
+}
+
+.container h1 {
+    color: #000000;
+}
+.btn-link{
+    color: rgb(165, 43, 43);
+    font-weight: bold;
+}

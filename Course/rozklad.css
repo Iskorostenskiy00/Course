@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('back.jpg');
+}
+
+header {
+    background-color: #f2dfff81;
+    text-align: center;
+    padding: 25px;
+}
+
+.logo {
+    max-width: 10%;
+    height: auto;
+    display: block;
+    margin: -24px auto;
+    border-radius: 5px;
+    padding: 0px;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.btn-primary {
+    background-color: rgb(182, 29, 29);
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: rgb(182, 42, 42);
+}
+
+@media screen and (max-width: 600px) {
+    header,
+    .text-container {
+        padding: 15px;
+    }
+
+    .logo {
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+.btn-link {
+    color: rgb(165, 43, 43);
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1980px;
+    color: #ffffff;
+}
+
+.container h1 {
+    color: #000000;
+}
+
+.roz-container {
+    text-align: center;
+    margin: 50px;
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.scheduleForm {
+    max-width: 300px;
+    margin: auto;
+}
+
+.activity-list {
+    text-align: left;
+    padding-left: 0;
+    list-style-type: decimal;
+}
+
+.activity-list-item {
+    margin: 10px;
+}
+
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 55%;
+}
+
+.scheduleForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.scheduleForm select,
+.scheduleForm input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.scheduleForm button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.scheduleForm button:hover {
+    background-color: #0056b3;
+}
+
+#confirmation {
+    margin-top: 20px;
+}
+.activity-list {
+    list-style-type: decimal;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.scheduleForm {
+    margin-left: 20px;
+}
+/* Додайте ці стилі до вашого CSS файла */
+
+.conf {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #000000;
+}
+

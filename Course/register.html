@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+
+<body>
+
+    <!-- Ваш HTML-код -->
+
+<form class="card" action="connect/register.php" method="post" enctype="multipart/form-data" onsubmit="return validateForm()">
+    <h2>Реєстрація</h2>
+    
+    <label for="name">
+      Нікнейм
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Ваш нік"
+        required
+      >
+    </label>
+    
+    <label for="email">
+      E-mail
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="qwerty@gmail.com"
+        required
+      >
+    </label>
+    
+    <label for="password">
+      Пароль
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="******"
+        required
+      >
+    </label>
+    
+    <button type="submit">Зареєструватися</button>
+  </form>
+  
+  <form class="text">
+    <p>У вас вже є акаунт? <a href="account.html">Вхід</a></p>
+  </form>  
+    <script>
+        function validateForm() {
+        }
+    </script>
+
+</body>
+
+</html>

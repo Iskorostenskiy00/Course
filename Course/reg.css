@@ -1,0 +1,98 @@
+/* reg.css */
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  
+  body {
+    font-family: sans-serif;
+    background-color: rgb(206, 206, 248); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Registration form */
+  
+  .card {
+    width: 500px;
+    padding: 35px;
+    background-color: white;
+    border-radius: 23px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    animation: scaleIn 1s ease-in-out;
+  }
+  
+  .card h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .card label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .card input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .card button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Text link */
+  
+  .text {
+    text-align: center;
+    margin-top: 434px; /* Виправлено значення */
+    margin-left: -345px; /* Додано одиниці вимірювання */
+  }
+  
+  .text a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Animations */
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes scaleIn {
+    0% {
+      transform: scale(0.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
